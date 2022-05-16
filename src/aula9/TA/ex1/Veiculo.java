@@ -2,14 +2,11 @@ package aula9.TA.ex1;
 
 public abstract class Veiculo {
     private Pessoa[] lugares = new Pessoa[100];
-    private int consumo = 5;
+    private int consumo;
 
-    public Veiculo(Pessoa[] lugares, int consumo) {
-        this.lugares = lugares;
-        this.consumo = consumo;
-    }
     public Veiculo(){
-
+        lugares = new Pessoa[100];
+        consumo = 5;
     }
     public void adicionarPassageiro(Pessoa nome){
         for (int i = 0; i < lugares.length; i++){
