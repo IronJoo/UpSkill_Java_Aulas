@@ -27,7 +27,6 @@ public class Main {
         System.out.println(filaSenhas.poll());
         System.out.println(filaSenhas.poll());
         System.out.println(filaSenhas.poll());
-        System.out.println("Teste");
 
 
     }
